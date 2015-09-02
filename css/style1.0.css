@@ -1,0 +1,138 @@
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.nav {
+  text-align: right;
+}
+.nav li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 15px;
+}
+
+#sign_in a {
+  font-weight: bold;
+  margin-right: 50px;
+  margin-left: 25px;
+  background-color: #4285F4;
+  color: white;
+  padding: 7px;
+  border-radius: 2px;
+}
+
+#sign_in :hover {
+  background: #1166f4;
+}
+
+#sign_in a:hover {
+  text-decoration: none;
+}
+
+#logo_google {
+  text-align: center;
+  padding-top: 200px;
+}
+
+#logo_google img {
+  width: 300px;
+  height: auto;
+}
+
+#france {
+  font-weight: bold;
+  color: grey;
+  text-align: center;
+  position: relative;
+  top: -45px;
+  left: 120px;
+  font-size: 18px;
+}
+
+form {
+  text-align: center;
+  position: relative;
+  top: -30px;
+}
+
+input {
+  width: 650px;
+  height: 30px;
+  border-radius: 0px;
+  border: 1px solid #D3D3D3;
+}
+
+input:hover {
+  border: 1px solid #757575;
+}
+
+input:focus {
+  border: 1px solid DodgerBlue;
+}
+
+.bouton_recherche {
+  display: inline-block;
+  padding: 12px;
+  background-color: #F2F2F2;
+  color: #757575;
+  font-weight: bold;
+  margin: 0 15px;
+  border-radius: 3px;
+}
+
+.bouton_recherche:hover {
+  color: black;
+  border: 1px solid #757575;
+  padding: 11px;
+}
+
+#content {
+  text-align: center;
+}
+
+footer {
+  background-color: #F2F2F2;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  border-top: 1px solid #D3D3D3;
+}
+
+#footerL  {
+  float:left;
+}
+
+#footerR {
+    float: right;
+}
+
+#footerL li , #footerR li {
+  display: inline-block;
+    margin: 0 10px;
+}
+
+#footerR li a, #footerL li a {
+  color: #757575;
+}
+
+#footerR ul {
+  margin-right: 25px;
+}
