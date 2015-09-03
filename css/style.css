@@ -22,6 +22,12 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/*Afin d'éviter la fusion des marges, et donc le défilement verticale, je supprime le magin-top automatique de ul*/
+ul {
+  margin-top: 0px;
+  padding-top: 20px;
+}
 .nav {
   text-align: right;
 }
