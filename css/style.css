@@ -114,6 +114,8 @@ input:focus {
 
 #content {
   text-align: center;
+  overflow: hidden;
+
 }
 
 footer {
