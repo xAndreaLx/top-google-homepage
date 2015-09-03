@@ -2,6 +2,8 @@ html {
   height: 100%;
 }
 
+* {-moz-box-sizing: border-box; box-sizing: border-box;}
+
 body {
   position: relative;
   width: 100%;
@@ -9,6 +11,7 @@ body {
   min-height: 100%;
   padding: 0;
   margin: 0;
+  padding-bottom: 5em;
 }
 
 a {
@@ -111,8 +114,8 @@ footer {
   background-color: #F2F2F2;
   position: absolute;
   bottom: 0px;
-  right: 0px;
-  left: 0px;
+  left: 0;
+  right: 0;
   border-top: 1px solid #D3D3D3;
 }
 
